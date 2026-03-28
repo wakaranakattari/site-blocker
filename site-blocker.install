@@ -1,0 +1,17 @@
+post_install() {
+    echo ":: Site Blocker installed successfully"
+    echo ":: Run with: sudo site-blocker"
+    echo ":: You can find it in your application menu"
+}
+
+post_upgrade() {
+    post_install
+}
+
+pre_remove() {
+    echo ":: Removing Site Blocker..."
+}
+
+post_remove() {
+    echo ":: Site Blocker removed"
+}
