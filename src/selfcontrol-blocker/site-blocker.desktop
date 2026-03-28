@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Site Blocker
-Comment=Block websites by editing hosts file
-Exec=sudo site-blocker
-Icon=site-blocker
-Terminal=false
-Categories=System;Network;Utility;
-StartupNotify=true
